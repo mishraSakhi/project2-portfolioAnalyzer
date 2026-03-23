@@ -1,0 +1,6 @@
+.card { animation: fadeUp 0.4s 0.1s ease both; }
+
+.chartWrap {
+  max-width: 320px;
+  margin: 0 auto;
+}

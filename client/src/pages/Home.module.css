@@ -1,0 +1,129 @@
+.page { min-height: 100vh; display: flex; flex-direction: column; }
+
+.nav {
+  border-bottom: 1px solid var(--border);
+  padding: 16px 0;
+  position: sticky;
+  top: 0;
+  background: rgba(10,10,15,0.85);
+  backdrop-filter: blur(12px);
+  z-index: 10;
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #7c6aff, #ff6a9b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero {
+  padding: 80px 0 60px;
+  flex: 1;
+}
+
+.heroInner {
+  max-width: 600px;
+}
+
+.eyebrow { margin-bottom: 20px; }
+
+.headline {
+  font-size: clamp(36px, 6vw, 60px);
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: var(--text);
+}
+
+.gradient {
+  background: linear-gradient(135deg, #7c6aff 0%, #ff6a9b 50%, #6affd4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.sub {
+  font-size: 15px;
+  color: var(--text2);
+  line-height: 1.7;
+  margin-bottom: 32px;
+  max-width: 480px;
+}
+
+.examples {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.exLabel {
+  font-size: 12px;
+  color: var(--text3);
+}
+
+.exBtn {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  color: var(--text2);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.exBtn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.features {
+  padding: 60px 0;
+  border-top: 1px solid var(--border);
+  background: var(--bg2);
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.featureCard {
+  text-align: center;
+  padding: 24px 16px;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.featureCard:hover {
+  border-color: var(--accent);
+  transform: translateY(-3px);
+}
+
+.featureIcon { font-size: 28px; display: block; margin-bottom: 10px; }
+
+.featureLabel {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: var(--text);
+}
+
+.featureDesc {
+  font-size: 12px;
+  color: var(--text3);
+  line-height: 1.5;
+}
+
+.footer {
+  padding: 20px 0;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--text3);
+  text-align: center;
+}

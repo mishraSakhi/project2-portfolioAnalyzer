@@ -9,5 +9,5 @@ A full-stack MERN application that analyses any public GitHub profile and genera
 - **Backend**: Node.js, Express, Octokit (GitHub SDK), node-cron
 - **Database**: MongoDB Atlas (Mongoose)
 - **Auth**: JWT + bcrypt (optional)
-- **Deploy**: Vercel (FE) + Render (BE)
+- **Deploy**: Vercel (FE)
 

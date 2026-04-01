@@ -2,7 +2,7 @@ import styles from './ScoreCard.module.css'
 
 const CATEGORIES = [
   { key: 'activity',    label: 'Activity',      color: '#7c6aff', icon: '⚡' },
-  { key: 'codeQuality', label: 'Code Quality',  color: '#6affd4', icon: '🔬' },
+  { key: 'codeQuality', label: 'CodeQuality',  color: '#6affd4', icon: '🔬' },
   { key: 'diversity',   label: 'Diversity',     color: '#fbbf24', icon: '🌐' },
   { key: 'community',   label: 'Community',     color: '#ff6a9b', icon: '⭐' },
   { key: 'hiringReady', label: 'Hiring Ready',  color: '#4ade80', icon: '💼' },

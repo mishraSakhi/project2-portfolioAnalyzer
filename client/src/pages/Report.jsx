@@ -14,7 +14,7 @@ function LoadingState() {
     <div className={styles.loading}>
       <div className={styles.spinner} />
       <p>Analysing GitHub profile...</p>
-      <span>Fetching repos, events, and computing scores</span>
+      <span>Fetching repos, and computing scores</span>
     </div>
   )
 }

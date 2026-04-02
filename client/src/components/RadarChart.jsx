@@ -12,7 +12,7 @@ import styles from './RadarChart.module.css'
 
 ChartJS.register(RadialLinearScale, PointElement, LineElement, Filler, Tooltip, Legend)
 
-const LABELS = ['Activity', 'Code Quality', 'Diversity', 'Community', 'Hiring Ready']
+const LABELS = ['Activity', 'Code Quality', 'Diveersity', 'Community', 'Hiring Ready']
 
 export default function RadarChart({ scores, compareScores = null, compareLabel = null }) {
   if (!scores) return null

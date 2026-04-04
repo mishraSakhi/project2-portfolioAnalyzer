@@ -48,7 +48,7 @@ export default function Report() {
       const result = await fetchProfile(username)
       setData(result)
     } catch (err) {
-      const msg = err.response?.data?.message || err.message || 'Failed to fetch profile.'
+      const msg = err.response?.data?.message || err.message || 'Failed to fetch PROFILE.'
       setError(msg)
     } finally {
       setLoading(false)

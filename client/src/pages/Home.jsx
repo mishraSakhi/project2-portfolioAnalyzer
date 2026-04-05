@@ -6,7 +6,7 @@ const EXAMPLE_USERS = ['torvalds', 'gaearon', 'sindresorhus', 'yyx990803']
 
 const FEATURES = [
   { icon: '⚡', label: 'Activity', desc: 'Commit streaks & push frequency' },
-  { icon: '🔬', label: 'Code Quality', desc: 'README, license, tests detection' },
+  { icon: '🔬', label: 'Code-Quality', desc: 'README, license, tests detection' },
   { icon: '🌐', label: 'Diversity', desc: 'Languages & project categories' },
   { icon: '⭐', label: 'Community', desc: 'Stars, forks & followers' },
   { icon: '💼', label: 'Hiring Ready', desc: 'Bio, website, email completeness' },

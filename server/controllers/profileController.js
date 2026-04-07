@@ -65,7 +65,7 @@ const getCachedProfile = async (req, res, next) => {
     const cached = await Report.findOne({ username });
 
     if (!cached) {
-      return res.status(404).json({ error: 'No cached report found.' });
+      return res.status(404).json({ error: 'No cached report prsent.' });
     }
 
     const ageMs = Date.now() - new Date(cached.cachedAt).getTime();

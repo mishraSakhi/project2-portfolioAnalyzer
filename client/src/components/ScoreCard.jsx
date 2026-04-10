@@ -9,10 +9,10 @@ const CATEGORIES = [
 ]
 
 function getRating(score) {
-  if (score >= 80) return { label: 'Excellent', color: '#4ade80' }
-  if (score >= 60) return { label: 'Good',      color: '#7c6aff' }
-  if (score >= 40) return { label: 'Fair',      color: '#fbbf24' }
-  return                   { label: 'Needs Work', color: '#f87171' }
+  if (score >= 80) return { label: 'Excellent!', color: '#4ade80' }
+  if (score >= 60) return { label: 'Good!',      color: '#7c6aff' }
+  if (score >= 40) return { label: 'Fair!',      color: '#fbbf24' }
+  return                   { label: 'Needs Work!', color: '#f87171' }
 }
 
 function CircleRing({ score, size = 160, strokeWidth = 12 }) {

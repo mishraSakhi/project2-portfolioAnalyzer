@@ -9,7 +9,7 @@ const FEATURES = [
   { icon: '🔬', label: 'CodeQuality', desc: 'README, license, tests detection' },
   { icon: '🌐', label: 'Diversity', desc: 'Languages & project categories' },
   { icon: '⭐', label: 'Community', desc: 'Stars, forks & followers' },
-  { icon: '💼', label: 'Hiring Ready', desc: 'Bio, website, email completeness' },
+  { icon: '💼', label: 'Hiring-Ready', desc: 'Bio, website, email completeness' },
 ]
 
 export default function Home() {
